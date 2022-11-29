@@ -47,17 +47,17 @@ export function StoreItem ({id, name, price, imgUrl, brand}: StoreItemProps) {
 
               {/*arrows <- Foto Gallery ->*/}
              <div className = "d-flex position-relative">
-
-            <button 
+            
+            {activeImage !== 0 && (<button 
             onClick={()=> setActiveImage(updateActiveImage(activeImage - 1, imgLength))} className = "btn btn-light position-absolute top-50 start-0  ">
             <BsArrowLeft />
-            </button>
+            </button>)}
 
             <Card.Img variant="top"  src = {imgUrl[activeImage]} height="500px" style = {{objectFit: "cover"}} />
 
-            <button onClick={()=> setActiveImage(updateActiveImage(activeImage+ 1, imgLength))} className = "btn btn-light shadow-none w-20           position-absolute top-50 end-0">
+            {activeImage !==imgUrl.length-1 && (<button onClick={()=> setActiveImage(updateActiveImage(activeImage+ 1, imgLength))} className = "btn btn-light shadow-none w-20 position-absolute top-50 end-0">
             <BsArrowRight />
-            </button>
+            </button>)}
 
             </div>
         
