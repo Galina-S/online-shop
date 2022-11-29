@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "brand": "Marc Aurel",
+        "name": "Marc Aurel Bluse",
+        "price": "175.00",
+        "imgUrl": ["/images/bluse.webp", "/images/bluse2.webp", "/images/bluse3.webp"]
+    },
+
+    {
+        "id": 2,
+        "brand": "Hervé Léger",
+        "name": "VARIEGATED PANTS - Stoffhose",
+        "price": "800.00",
+        "imgUrl": ["/images/hose.webp", "/images/hose2.webp", "/images/hose3.webp"]
+    },
+
+    {
+        "id": 3,
+        "brand": "Victoria Beckham",
+        "name": "OVERSIZED TAILORED COAT - Klassischer Mantel",
+        "price": "1720.00",
+        "imgUrl": ["/images/mantel.webp", "/images/mantel2.webp", "/images/mantel3.webp"]
+    },
+
+    {
+        "id": 4,
+        "name": "MILA LIFT BOOT - Stiefel - black",
+        "brand": "Stuart Weitzman",
+        "price": "794.50",
+        "imgUrl": ["/images/shoes.webp", "/images/shoes2.webp", "/images/shoes3.webp", "/images/shoes4.webp"]
+    },
+
+    {
+        "id": 5,
+        "brand": "Erdem",
+        "name": "CORA DRESS - Blusenkleid",
+        "price": "1123.95",
+        "imgUrl": ["/images/kleid.webp", "/images/kleid2.webp" ]
+    },
+
+    {
+        "id": 6,
+        "brand": "Jenah St.",
+        "name": "POUCH - Umhängetasche",
+        "price": "220",
+        "imgUrl": ["/images/tasche.webp", "/images/tasche2.webp"]
+    }
+
+]
